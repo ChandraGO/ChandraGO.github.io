@@ -322,7 +322,7 @@ async function tanya() {
 async function tanya() {
   const { value: kado } = await Swal.fire({
     title: 'Kasih Pantun dulu 🗿',
-    html: '<img src="./IMG/sticker.gif" style="width:100px;margin:10px auto;display:block;" /><input type="text" id="pantun" class="swal2-input" placeholder="Tulis jawaban kamu di sini">',
+    html: '<img src="./img/sticker.gif" style="width:100px;margin:10px auto;display:block;" /><input type="text" id="pantun" class="swal2-input" placeholder="Tulis jawaban kamu di sini">',
     focusConfirm: false,
     showCancelButton: true,
     confirmButtonText: 'Kirim jawabannya ke wa aku ya 🗿',
@@ -362,7 +362,7 @@ async function tanya() {
 async function tanya() {
   const { value: jawaban, isConfirmed, isDismissed } = await Swal.fire({
     title: 'Kasih Pantuunu dulu 🗿',
-    html: '<img src="./IMG/sticker.gif" style="width:100px;margin:10px auto;display:block;" />' +
+    html: '<img src="./img/sticker.gif" style="width:100px;margin:10px auto;display:block;" />' +
           '<input type="text" id="pantun" class="swal2-input" placeholder="Tulis jawaban kamu di sini">',
     showCancelButton: true,
     confirmButtonText: 'ya',
@@ -393,7 +393,7 @@ async function tanya() {
 async function tanya() {
   const { value: jawaban, isConfirmed, isDismissed } = await Swal.fire({
     title: 'Kasih Pantuunu dulu 🗿',
-    html: '<img src="./IMG/sticker.gif" style="width:100px;margin:10px auto;display:block;" />' +
+    html: '<img src="./img/sticker.gif" style="width:100px;margin:10px auto;display:block;" />' +
           '<input type="text" id="pantun" class="swal2-input" placeholder="Tulis jawaban kamu di sini">',
     showCancelButton: true,
     confirmButtonText: 'ya',
