@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+<title>Happy Graduation!!! :)</title>
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet"/>
+<link href="img/favicon.png" rel="shortcut icon" type="image/png"/>
+<link href="styles/main.css" rel="stylesheet"/>
+<style>
+@keyframes kenyal {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+</style></head>
+<body>
+<audio autoplay="" class="song" loop="">
+<source src="./music/wisuda.mp3"/>
+    
+    Your browser isn't invited for super fun audio time.
+  </audio>
+<div class="container">
+<div class="one">
+<h1 class="one">
+        Hallo
+        <span id="name">Kharisma Shinta Devi S.M</span>
+</h1>
+<p class="two" id="greetingText">Selamat Atas Gelar Barunya 🔥</p>
+</div>
+<div class="three">
+<p>Tarakan, 31 Juli 2025</p>
+<p class="from">from: Chandra 😎</p>
+</div>
+<div class="four">
+<div class="text-box">
+<p class="hbd-chatbox">
+      videoPopup
+    </p>
+<p class="fake-btn">Kirim Pesan</p>
+</div>
+</div>
+<div class="five">
+<p class="idea-1">dan Satu lagi</p>
+<p class="idea-2">sehat terusss yaa</p>
+<p class="idea-3">
+        semoga bisa menjadi pribadi<br/>
+<strong>Yang Lebih Baik</strong>
+        .
+      </p>
+<p class="idea-4">dan semogaaa</p>
+<p class="idea-5">
+        selalu jadi orang sabar
+        <span>:)</span>
+</p>
+<p class="idea-6">
+<span>INTI</span>
+<span> NYAA</span>
+</p>
+</div>
+<div class="six">
+<img alt="profile" class="profile-picture" id="imagePath" src="./img/irene.jpg"/>
+<img alt="hat" class="hat" src="img/hat.svg"/>
+<div class="wish">
+<h3 class="wish-hbd">Happy Graduation</h3>
+<h5 id="wishText">Rismaaaaaaa</h5>
+</div>
+</div>
+<div class="seven">
+<div class="baloons">
+<img alt="" src="img/ballon2.svg"/>
+<img alt="" src="img/ballon3.svg"/>
+<img alt="" src="img/ballon2.svg"/>
+<img alt="" src="img/ballon3.svg"/>
+<img alt="" src="img/ballon1.svg"/>
+<img alt="" src="img/ballon2.svg"/>
+<img alt="" src="img/ballon1.svg"/>
+<img alt="" src="img/ballon3.svg"/>
+</div>
+</div>
+<div class="eight">
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+<svg viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20"></circle>
+</svg>
+</div>
+
+</div>
+
+
+</div>
+<!-- Tombol Video (Biru) -->
+<div class="final-buttonvid" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  display: none;
+">
+  <button onclick="playIntroVideo()" style="
+    font-size: 1.5rem;
+    padding: 12px 27px;
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  ">
+   JJ RIMEK MU 📽
+  </button>
+</div>
+
+<!-- Tombol Klik Disini (Pink, di bawah tombol video) -->
+<div class="final-button" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  display: none;
+">
+  <button onclick="tanya()" style="
+    font-size: 1.5rem;
+    padding: 12px 24px;
+    background-color: #ff69b4; /* Warna pink */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  ">
+    Klik Disini 💓
+  </button>
+</div>
+
+
+
+</div>
+<div id="videoPopup" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: black; justify-content: center; align-items: center; z-index: 9999;">
+<video autoplay="" id="introVideo" muted="" playsinline="" src="./music/JJ.mp4" style="width: 100vw; height: 100vh; object-fit: cover;"></video>
+</div>
+
+<script>
+function playIntroVideo() {
+  const popup = document.getElementById('videoPopup');
+  const video = document.getElementById('introVideo');
+  const btnKlik = document.querySelector('.final-button');
+  const btnVid = document.querySelector('.final-buttonvid');
+
+  // Sembunyikan tombol video saat diputar
+  btnVid.style.display = 'none';
+
+  // Tampilkan popup video
+  popup.style.display = 'flex';
+  video.currentTime = 0;
+  video.muted = false;
+  video.play();
+
+  video.onended = function () {
+    popup.style.display = 'none';
+
+    // Setelah video selesai dan ditutup, tampilkan tombol Klik Disini 💓
+    btnKlik.style.display = 'block';
+  };
+}
+</script>
+
+</body>
+<!-- Greensock -->
+<script src="./script/TweenMax.min.js.js"></script>
+<!-- Sweetalert -->
+<script src="./script/sweetalert2@11.js"></script>
+<script src="./script/main.js" type="application/javascript"></script>
+</html>
