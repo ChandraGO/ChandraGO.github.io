@@ -178,17 +178,21 @@ const animationTimeline = () => {
         0.2,
         "+=0.7"
     )
-    .staggerFromTo(
-        ".baloons img",
-        2.5, {
-            opacity: 0.9,
-            y: 1400,
-        }, {
-            opacity: 1,
-            y: -1000,
-        },
-        0.2
-    )
+    
+.staggerFromTo(
+    ".baloons img",  // Animasi untuk balon dan tali
+    1.5, {
+        opacity: 0.9,
+        y: window.innerHeight,  // Mulai dari bawah layar
+    }, {
+        opacity: 1,
+        y: -1.5 * window.innerHeight,  // Gerakkan lebih jauh ke atas untuk memastikan keluar dari layar
+    },
+    0.2
+)
+
+
+
     .from(
         ".profile-picture",
         0.5, {
