@@ -348,7 +348,7 @@ async function tanya() {
           <button onclick="confirmYa(4)">ya</button>
           <button onclick="confirmYa(5)">ya</button>
         </div>
-        <img src="./IMG/konfir.gif" style="width:100px;margin-top:15px;" />
+        <img src="./img/konfir.gif" style="width:100px;margin-top:15px;" />
       `;
       Swal.fire({
         html: container,
@@ -365,7 +365,7 @@ async function tanya() {
 
 async function tanya() {
   const { value: jawaban, isConfirmed, isDismissed } = await Swal.fire({
-    title: 'Kasih Pantuunu dulu 🗿',
+    title: 'Kasih Pantun dulu 🗿',
     html: '<img src="./img/sticker.gif" style="width:100px;margin:10px auto;display:block;" />' +
           '<input type="text" id="pantun" class="swal2-input" placeholder="Tulis jawaban kamu di sini">',
     showCancelButton: true,
