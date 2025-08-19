@@ -1,13 +1,13 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Hidup itu pilihan, silahkan pilih tombol di bawah ini..!!',
+        title: 'Pastikan yang Akses ini Risma..!!',
         // text: "You won't be able to revert this!",
         icon: 'warning',
         showCancelButton: false,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Box 1',
+        confirmButtonText: 'Oke',
         cancelButtonText: 'Tidak',
          allowOutsideClick: false // <- Tambahan ini
     }).then((result) => {
